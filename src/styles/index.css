@@ -158,7 +158,7 @@ button {
   .header__btn-theme {
     display: block;
     outline: none;
-    background: url(/img/theme1.png);
+    background: url(https://picsum.photos/200);
     background-size: cover;
     border: 0;
     height: 3rem;
@@ -183,7 +183,7 @@ button {
 
 @font-face {
   font-family: Oswald;
-  src: url("fonts/Oswald-Regular.ttf"), url("fonts/Oswald-Light.ttf");
+  src: url("/src/fonts/Oswald-Regular.ttf"), url("/src/fonts/Oswald-Light.ttf");
   font-display: block;
 }
 .main {
@@ -293,11 +293,11 @@ button {
 }
 @media (max-width: 676px) {
   .main__wrapper__slick {
-    width: 18rem;
+    width: 12rem;
   }
   .main__wrapper__slick img {
-    width: 7rem;
-    margin: 1rem;
+    width: 5rem;
+    margin: 0.5rem;
   }
 }
 @media (min-width: 1025px) {
