@@ -1,12 +1,110 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>webpack starterkit</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Test page 1</title>
+  <link
+          rel="stylesheet"
+          type="text/css"
+          href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+  />
+  <link
+          rel="stylesheet"
+          type="text/css"
+          href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+  />
 </head>
-<body>
-  <h1>webpack starter</h1>
-  <p>✨ A lightweight foundation for your next webpack based frontend project.</p>
+<body class="theme">
+<header class="header">
+  <img src="img/logo.png" alt="logo" class="header__logo" />
+  <button type="button" class="header__btn-menu"><span></span></button>
+  <button type="button" class="header__btn-theme"></button>
+  <ul class="header__ul">
+    <li><a href="#">Courses</a></li>
+    <li><a href="#">Dowloads</a></li>
+    <li><a href="#">Pricing</a></li>
+    <li><a href="#">Sign in</a></li>
+  </ul>
+  <button class="header__btn-free">Try for free</button>
+</header>
+<main class="main">
+  <div class="main__wrapper">
+    <section class="main__wrapper__content mb5">
+      <h1>
+        Learn to
+        <span class="main__wrapper__content__span">design and code</span>
+        modern apps
+      </h1>
+      <div class="main__wrapper__content__text mb5">
+        <p>
+          Complete courses about the best tools and design systems.
+          Prototype and build apps with React and Swift.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+          scelerisque leo a justo cursus, ac luctus ipsum sagittis. Etiam
+          nisi felis, suscipit at neque blandit, euismod tempus elit.
+          Maecenas justo ante, iaculis ac orci eget, ornare commodo sapien.
+          Nullam vehicula est at ante luctus gravida. Phasellus vestibulum
+          lectus vitae sapien condimentum, quis mattis dolor pulvinar. Donec
+          elementum metus sit amet elit tristique, sit amet interdum lacus
+          ultrices. Praesent vitae mattis massa, eget varius sem. Nullam at
+          ex a eros euismod venenatis. Nulla vel odio at mauris ultrices
+          consectetur. Curabitur ornare et dui ut mollis. Sed ante eros,
+          gravida ut tellus nec, condimentum sollicitudin augue.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+          scelerisque leo a justo cursus, ac luctus ipsum sagittis. Etiam
+          nisi felis, suscipit at neque blandit, euismod tempus elit.
+          Maecenas justo ante, iaculis ac orci eget, ornare commodo sapien.
+          Nullam vehicula est at ante luctus gravida. Phasellus vestibulum
+          lectus vitae sapien condimentum, quis mattis dolor pulvinar. Donec
+          elementum metus sit amet elit tristique, sit amet interdum lacus
+          ultrices. Praesent vitae mattis massa, eget varius sem. Nullam at
+          ex a eros euismod venenatis. Nulla vel odio at mauris ultrices
+          consectetur. Curabitur ornare et dui ut mollis. Sed ante eros,
+          gravida ut tellus nec, condimentum sollicitudin augue.
+        </p>
+      </div>
+      <button class="main__wrapper__content__btn-watch">
+        WATCH THE VIDEO
+      </button>
+    </section>
+    <section class="main__wrapper__slick mb5">
+      <h2>Look some randome pictures!</h2>
+      <div class="autoplay">
+        <div>
+          <img src="https://picsum.photos/200" alt="picture" />
+        </div>
+        <div>
+          <img src="https://picsum.photos/200" alt="picture" />
+        </div>
+        <div>
+          <img src="https://picsum.photos/200" alt="picture" />
+        </div>
+      </div>
+    </section>
+    <div class="main__wrapper__links mb5">
+      <a href="#" class="main__wrapper__links__link"></a>
+      <a href="#" class="main__wrapper__links__link"></a>
+      <a href="#" class="main__wrapper__links__link"></a>
+      <a href="#" class="main__wrapper__links__link"></a>
+      <a href="#" class="main__wrapper__links__link"></a>
+      <a href="#" class="main__wrapper__links__link"></a>
+      <a href="#" class="main__wrapper__links__link"></a>
+      <a href="#" class="main__wrapper__links__link"></a>
+    </div>
+  </div>
+</main>
 </body>
+<script
+        src="https://code.jquery.com/jquery-2.2.0.min.js"
+        type="text/javascript"
+></script>
+<script
+        type="text/javascript"
+        src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+></script>
 </html>

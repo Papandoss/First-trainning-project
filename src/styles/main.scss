@@ -1,0 +1,117 @@
+$min_height: calc(100vh - 3rem);
+
+@font-face {
+  font-family: Oswald;
+  src: url('fonts/Oswald-Regular.ttf'),
+  url('fonts/Oswald-Light.ttf');
+  font-display: block;
+}
+
+.main {
+  display: flex;
+  align-items: flex-end;
+  min-height: $min_height;
+  width: $width;
+  justify-content: center;
+  text-align: center;
+}
+
+.main__wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: $width;
+}
+
+.main__wrapper__content{
+    h1 {
+      font-family: "Oswald",sans-serif;
+    }
+  
+    width: 90%;
+    @include phone{
+      font-size: 1.2rem;
+    }
+    @include tablet{
+      font-size: 1.5rem;
+    }
+    @include desktop{
+      font-size: 2rem;
+    }
+}
+
+.main__wrapper__content__text {
+  text-align: left;
+  p {margin: 0;}
+}
+
+
+.main__wrapper__content__span{
+  color: #28289bda;
+}
+
+.main__wrapper__content__span_dark{
+  color: #e4e724;
+}
+
+
+
+.theme{
+      background-color: rgb(255, 207, 152);
+ }
+
+ .theme-dark{
+      background-color: rgb(43, 32, 90);
+      color: white;
+ }
+ 
+ .main__wrapper__content__btn-watch{
+   background-color: rgba(247, 0, 21, 0.75);
+   outline-color: rgba(247, 0, 21, 0.4);
+   color: white;
+   width: 12rem;
+   height: 2rem;
+   border-radius: 1rem;
+   border: 0.1rem;
+ }
+ 
+ 
+
+ .main__wrapper__links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    @include phone{
+      max-width: 24rem;
+      max-height: 12rem;
+    }
+    @include desktop{
+      width: $width;
+    }
+}
+
+ .main__wrapper__links__link{
+   background-color: black;
+   width: 3rem;
+   height: 3rem;
+   margin: 1rem;
+ 
+ }
+ 
+ .main__wrapper__slick{
+   @include tablet{
+    width: 24rem; 
+     img{width: 10rem; margin:1rem;}
+     }
+   @include phone{
+    width: 18rem; 
+    img{width: 7rem;margin:1rem;}
+    }
+
+  @include desktop{
+   width: 34rem; 
+    img{width: 15rem;margin:1rem;}
+    }
+ }
+ 
