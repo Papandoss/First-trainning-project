@@ -286,27 +286,15 @@ button {
   .main__wrapper__slick {
     width: 24rem;
   }
-  .main__wrapper__slick img {
-    width: 10rem;
-    margin: 1rem;
-  }
 }
 @media (max-width: 676px) {
   .main__wrapper__slick {
     width: 12rem;
   }
-  .main__wrapper__slick img {
-    width: 5rem;
-    margin: 0.5rem;
-  }
 }
 @media (min-width: 1025px) {
   .main__wrapper__slick {
     width: 34rem;
-  }
-  .main__wrapper__slick img {
-    width: 15rem;
-    margin: 1rem;
   }
 }
 
